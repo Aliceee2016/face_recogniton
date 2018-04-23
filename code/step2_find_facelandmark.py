@@ -12,7 +12,7 @@ face_pose_predictor = dlib.shape_predictor(predictor_model)
 
 win = dlib.image_window()
 
-file_name = "../test_data/0000114/002.jpg"
+file_name = "../cut_image/img/1.jpg"
 
 #load the image
 image = io.imread(file_name)
